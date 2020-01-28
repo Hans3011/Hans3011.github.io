@@ -1,0 +1,61 @@
+/* Typography */
+body {
+  /* Everything is Raleway */
+  font-family: 'Roboto Mono', monospace;
+}
+/* Except we're using more specific rules to override the headlines */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+.navbar-brand {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+  color:darkgreen;
+}
+.navbar-light .navbar-brand {
+  color:darkgreen;
+}
+
+/* Jumbotron background and font styles */
+/* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
+.jumbotron {
+  /* Background */
+  background-attachment: fixed;
+  background-image: url(Picture1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Fonts */
+  /* The text-shadow helps the white text stand out better on a darker background */
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.img-fluid{
+  width: 1200px;
+  height:600px;
+}
+
+.pricing {
+  /* Background */
+  background-attachment: fixed;
+  background-image: url(Picture1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Fonts */
+  /* The text-shadow helps the white text stand out better on a darker background */
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
+}
+
+.table-striped {
+  color: whitesmoke
+}
+
+.fa-check{
+  color: darkgreen
+}
+
+.fa-times {
+  color: red
+}
